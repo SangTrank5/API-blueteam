@@ -1,0 +1,82 @@
+[
+  {
+    "method": "POST",
+    "path": "/pet/{petId}/uploadImage"
+  },
+  {
+    "method": "POST",
+    "path": "/pet"
+  },
+  {
+    "method": "PUT",
+    "path": "/pet"
+  },
+  {
+    "method": "GET",
+    "path": "/pet/findByStatus"
+  },
+  {
+    "method": "GET",
+    "path": "/pet/findByTags"
+  },
+  {
+    "method": "GET",
+    "path": "/pet/{petId}"
+  },
+  {
+    "method": "POST",
+    "path": "/pet/{petId}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/pet/{petId}"
+  },
+  {
+    "method": "GET",
+    "path": "/store/inventory"
+  },
+  {
+    "method": "POST",
+    "path": "/store/order"
+  },
+  {
+    "method": "GET",
+    "path": "/store/order/{orderId}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/store/order/{orderId}"
+  },
+  {
+    "method": "POST",
+    "path": "/user/createWithList"
+  },
+  {
+    "method": "GET",
+    "path": "/user/{username}"
+  },
+  {
+    "method": "PUT",
+    "path": "/user/{username}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/user/{username}"
+  },
+  {
+    "method": "GET",
+    "path": "/user/login"
+  },
+  {
+    "method": "GET",
+    "path": "/user/logout"
+  },
+  {
+    "method": "POST",
+    "path": "/user/createWithArray"
+  },
+  {
+    "method": "POST",
+    "path": "/user"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "target": "https://jsonplaceholder.typicode.com",
+
+  "auth": {
+    "type": "bearer",
+    "user_token": "USER_TOKEN_EXAMPLE",
+    "admin_token": "ADMIN_TOKEN_EXAMPLE",
+    "api_key": "API_KEY_EXAMPLE",
+    "api_key_header": "X-API-Key"
+  },
+
+  "endpoints": {
+    "posts": "/posts/1",
+    "users": "/users/1"
+  }
+}

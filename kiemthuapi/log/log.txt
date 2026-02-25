@@ -1,0 +1,212 @@
+
+==================================================
+[REQUEST] 2026-02-25 18:50:06.106445
+GET https://jsonplaceholder.typicode.com/posts/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:06.431501
+Status: 200
+Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:06.432976
+GET https://jsonplaceholder.typicode.com/posts/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0', 'Authorization': 'Bearer USER_TOKEN_EXAMPLE'}
+[RESPONSE] 2026-02-25 18:50:06.773483
+Status: 200
+Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:06.775021
+GET https://jsonplaceholder.typicode.com/posts/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0', 'Authorization': 'Bearer ADMIN_TOKEN_EXAMPLE'}
+[RESPONSE] 2026-02-25 18:50:07.115021
+Status: 200
+Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:07.116709
+GET https://jsonplaceholder.typicode.com/posts/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0', 'X-API-Key': 'API_KEY_EXAMPLE'}
+[RESPONSE] 2026-02-25 18:50:07.480332
+Status: 200
+Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:07.482581
+POST https://petstore.swagger.io/v2/pet/1/uploadImage
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:08.624045
+Status: 415
+Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+==================================================
+[REQUEST] 2026-02-25 18:50:08.625464
+POST https://petstore.swagger.io/v2/pet
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:09.668090
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:09.669535
+PUT https://petstore.swagger.io/v2/pet
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:10.700483
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:10.702066
+GET https://petstore.swagger.io/v2/pet/findByStatus
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:11.741637
+Status: 200
+Body: []
+
+==================================================
+[REQUEST] 2026-02-25 18:50:11.743123
+GET https://petstore.swagger.io/v2/pet/findByTags
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:12.797552
+Status: 200
+Body: []
+
+==================================================
+[REQUEST] 2026-02-25 18:50:12.798649
+GET https://petstore.swagger.io/v2/pet/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:13.862404
+Status: 404
+Body: {"code":1,"type":"error","message":"Pet not found"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:13.863853
+POST https://petstore.swagger.io/v2/pet/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:14.917737
+Status: 415
+Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+==================================================
+[REQUEST] 2026-02-25 18:50:14.919634
+DELETE https://petstore.swagger.io/v2/pet/1
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:16.034636
+Status: 404
+Body: 
+
+==================================================
+[REQUEST] 2026-02-25 18:50:16.035884
+GET https://petstore.swagger.io/v2/store/inventory
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:17.112229
+Status: 200
+Body: {"totvs":5,"sold ":1,"string":6,"unavailable":1,"Busy":1,"UNKNOWN_STATUS":1,"pending":81,"available":673,"weisskeiner1":1,"KVA_Updated":1,"Not Available":1,"avale":1,"soldout":1,"negative":1,"INVALID_available":1,"not available":1,"Available":1,"مرحبا 世界":1,"sold":143,"NOT available":1,"d":1,"avalible":1,"quwet":1,"SOLD":1,"Active":1,"invalid_status":2,"12345":1}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:17.113239
+POST https://petstore.swagger.io/v2/store/order
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:18.216563
+Status: 400
+Body: {"code":1,"type":"error","message":"No data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:18.217823
+GET https://petstore.swagger.io/v2/store/order/{orderId}
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:19.276752
+Status: 404
+Body: {"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"{orderId}\""}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:19.278570
+DELETE https://petstore.swagger.io/v2/store/order/{orderId}
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:20.421346
+Status: 404
+Body: {"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"{orderId}\""}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:20.423122
+POST https://petstore.swagger.io/v2/user/createWithList
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:21.484178
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:21.486046
+GET https://petstore.swagger.io/v2/user/{username}
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:22.574444
+Status: 404
+Body: {"code":1,"type":"error","message":"User not found"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:22.576139
+PUT https://petstore.swagger.io/v2/user/{username}
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:23.653449
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:23.654842
+DELETE https://petstore.swagger.io/v2/user/{username}
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:24.787875
+Status: 404
+Body: 
+
+==================================================
+[REQUEST] 2026-02-25 18:50:24.790048
+GET https://petstore.swagger.io/v2/user/login
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:25.902944
+Status: 200
+Body: {"code":200,"type":"unknown","message":"logged in user session:1772020225382"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:25.904672
+GET https://petstore.swagger.io/v2/user/logout
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:27.003253
+Status: 200
+Body: {"code":200,"type":"unknown","message":"ok"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:27.004229
+POST https://petstore.swagger.io/v2/user/createWithArray
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:28.089115
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
+
+==================================================
+[REQUEST] 2026-02-25 18:50:28.090560
+POST https://petstore.swagger.io/v2/user
+Headers: {'Content-Type': 'application/json', 'User-Agent': 'MyHackerTool/1.0'}
+[RESPONSE] 2026-02-25 18:50:29.110243
+Status: 405
+Body: {"code":405,"type":"unknown","message":"no data"}
